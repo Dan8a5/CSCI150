@@ -1,14 +1,3 @@
-# Ignore compiled executables
-*.exe
-*.out
-
-# Don't ignore any directories
-!*/
-
-# Don't ignore source code and documentation
-!*.c
-!*.h
-!*.md
-!*.txt
-!*.jpg
-!*.png
+myenv/
+week6_old_file
+.DS_Store
