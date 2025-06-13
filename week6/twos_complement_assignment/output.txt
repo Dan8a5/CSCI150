@@ -1,0 +1,24 @@
+Two's Complement Representation (8-bit)
+=====================================
+
+(a) +32: 00100000
+(b) -14: 11110010 (Two's complement of 14)
+(c) +63: 00111111
+(d) -104: 10011000 (Two's complement of 104)
+(e) +127: 01111111
+(f) -127: 10000001 (Two's complement of 127)
+(g) +89: 01011001
+(h) -55: 11001001 (Two's complement of 55)
+(i) -1: 11111111 (Two's complement of 1)
+(j) -128: 10000000 (Two's complement of 128)
+(k) +169: Cannot be represented in 8-bit two's complement (out of range)
+(l) +0: 00000000
+(m) +84: 01010100
+(n) +3: 00000011
+(o) -3: 11111101 (Two's complement of 3)
+(p) -190: Cannot be represented in 8-bit two's complement (out of range)
+
+Notes:
+- 8-bit two's complement range: -128 to +127
+- MSB (leftmost bit) is the sign bit: 0 = positive, 1 = negative
+- For negative numbers, two's complement = invert all bits + 1
